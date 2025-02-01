@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture/"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#arrose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#arrose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Systeme_d&apos;irrigation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+        <rdfs:isDefinedBy>https://www.wikidata.org/wiki/Q57005501</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#consomme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#consomme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Intrants_agricoles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#controle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#controle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Automatisation_agricole"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Systeme_d&apos;irrigation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#nourrit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#nourrit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Ressources_naturelles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#affectéPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#affectéPar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#fertilise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#fertilise">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Engrais"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#utiliséPour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#utiliséPour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Outils_agricoles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#humidité -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#humidité">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#pH -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#pH">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#quantité -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#quantité">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Engrais"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#température -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#température">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Engrais"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Systeme_d&apos;irrigation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Automatisation_agricole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Automatisation_agricole">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#controle"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Systeme_d&apos;irrigation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Ressources_naturelles"/>
+        <rdfs:seeAlso>https://www.wikidata.org/wiki/Q7937</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#consomme"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Intrants_agricoles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#affectéPar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Engrais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Engrais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Intrants_agricoles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#fertilise"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>https://fr.dbpedia.org/page/Engrais</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Fruits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Légumes"/>
+        <rdfs:seeAlso>https://dbpedia.org/page/Fruit</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Intrants_agricoles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Intrants_agricoles">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Légumes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Légumes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Outils_agricoles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Outils_agricoles">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#utiliséPour"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Ressources_naturelles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Ressources_naturelles">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#nourrit"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Cultures"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Ressources_naturelles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Systeme_d&apos;irrigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Systeme_d&apos;irrigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Intrants_agricoles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/Agriculture#arrose"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Argileux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Argileux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+        <untitled-ontology-9:humidité rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</untitled-ontology-9:humidité>
+        <untitled-ontology-9:pH rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</untitled-ontology-9:pH>
+        <untitled-ontology-9:quantité>100KG</untitled-ontology-9:quantité>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Aride -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Aride">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+        <untitled-ontology-9:température rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</untitled-ontology-9:température>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Banane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Banane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Fruits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Drone_agricole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Drone_agricole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Automatisation_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Fruits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Pomme_de_terre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Pomme_de_terre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Légumes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Robot_semeur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Robot_semeur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Automatisation_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sablonneux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sablonneux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Sol"/>
+        <untitled-ontology-9:humidité rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-9:humidité>
+        <untitled-ontology-9:pH rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</untitled-ontology-9:pH>
+        <untitled-ontology-9:quantité>100KG</untitled-ontology-9:quantité>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Semoir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Semoir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Outils_agricoles"/>
+        <untitled-ontology-9:type>manuel</untitled-ontology-9:type>
+        <rdfs:seeAlso>https://fr.dbpedia.org/page/Semoir</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tempéré -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tempéré">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+        <untitled-ontology-9:température rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</untitled-ontology-9:température>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tomate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tomate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Légumes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tracteur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tracteur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Outils_agricoles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tropical -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Tropical">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2025/0/untitled-ontology-9#Climat"/>
+        <untitled-ontology-9:température rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</untitled-ontology-9:température>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
